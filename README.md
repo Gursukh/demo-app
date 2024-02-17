@@ -9,6 +9,7 @@ How to setup
 1) Run:
     cd demo-app
     npm i
+    npm run dev
 
 1) Install ngrok and expose localhost 3000
 
