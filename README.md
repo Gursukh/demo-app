@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Checkout Our Docs: https://docs.tryterra.co/
 
-## Getting Started
+Pre Requirements
+1) Install Ngrok
+2) Install NodeJS
+3) Checkout our slack channel and sign up for a Terra developer account 
 
-First, run the development server:
+How to setup
+1) Run:
+    cd demo-app
+    npm i
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1) Install ngrok and expose localhost 3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2) Head to the terra dashboard https://dashboard.tryterra.co/user/login
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3) Setup a webhook destination and paste in your ngrok url.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4) Copy your API Key and Dev ID from the bottom right corner of the connections page into the .env file.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5) Build your app!
